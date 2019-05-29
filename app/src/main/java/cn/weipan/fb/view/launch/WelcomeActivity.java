@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.youth.banner.Banner;
@@ -15,7 +16,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import cn.weipan.fb.MainActivity;
 import cn.weipan.fb.R;
 import cn.weipan.fb.tools.GlideImageWelcomeLoader;
 import cn.weipan.fb.tools.GlobalConfig;
@@ -34,6 +34,7 @@ public class WelcomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
         ButterKnife.bind(this);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         GlobalConfig.setIs_first();
         banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
         banner.setIndicatorGravity(BannerConfig.CENTER);
@@ -57,8 +58,8 @@ public class WelcomeActivity extends Activity {
 
                     welcomeSkip.setVisibility(View.VISIBLE);
                     welcomeSkip.setOnClickListener(v -> {
-                        Intent intent=new Intent(WelcomeActivity.this,LoginActivity.class);
-                        startActivityForResult(intent,99);
+                        Intent intent = new Intent(WelcomeActivity.this, LoginActivity.class);
+                        startActivityForResult(intent, 99);
                         finish();
                     });
                 }

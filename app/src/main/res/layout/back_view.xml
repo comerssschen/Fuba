@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_size_15"
+        android:layout_marginBottom="@dimen/text_size_15"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_header_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/fhtb"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="@color/qmui_config_color_white" />
+    </LinearLayout>
+
+</LinearLayout>

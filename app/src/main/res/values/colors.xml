@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+
+    <color name="mycolor" tools:ignore="MissingDefaultResource">#0f9ee2</color>
+    <color name="text_hui">#bcbcbc</color>
+    <color name="light_gray">#f3f4f5</color>
+    <color name="a7d4ff">#a7d4ff</color>
+    <color name="chakan_te">#59B6E3</color>
+    <color name="header">#0f9ee2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toastcolor">#000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff88ae00</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_color">#e5e5e5</color>
+</resources>

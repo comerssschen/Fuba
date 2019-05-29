@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/mycolor</item>
+    </style>
+
+    <style name="newAppTheme1" parent="QMUI.Compat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/qmui_config_color_black</item>
+        <item name="colorPrimaryDark">@color/mycolor</item>
+        <item name="colorAccent">@color/mycolor</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 配置qmui提供的theme -->
+        <item name="qmui_config_color_blue">@color/mycolor</item>
+        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_subtitle_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_height">48dp</item>
+        <!--<item name="qmui_topbar_height_chenjin">60dp</item>-->
+        <item name="qmui_topbar_image_btn_height">48dp</item>
+        <item name="QMUITopBarStyle">@style/QDTopBar</item>
+    </style>
+
+
+
+    <style name="loginTheme" parent="QMUI.Compat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:windowNoTitle">true </item>
+        <item name="colorPrimary">@color/qmui_config_color_black</item>
+        <item name="colorPrimaryDark">@color/mycolor</item>
+        <item name="colorAccent">@color/mycolor</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 配置qmui提供的theme -->
+        <item name="qmui_config_color_blue">@color/mycolor</item>
+        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_subtitle_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_height">48dp</item>
+        <!--<item name="qmui_topbar_height_chenjin">60dp</item>-->
+        <item name="qmui_topbar_image_btn_height">48dp</item>
+        <item name="QMUITopBarStyle">@style/QDTopBar</item>
+    </style>
+
+
+    <style name="qidongtu" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:windowNoTitle">true </item>
+        <item name="android:windowBackground">@drawable/qidongtu</item>
+    </style>
+
+
+    <!--<style name="QDTopBar" parent="QMUI.TopBar">-->
+        <!--<item name="qmui_topbar_bg_color">?attr/app_primary_color</item>-->
+    <!--</style>-->
+
+
+    <style name="QDTopBar" parent="QMUI.TopBar">
+        <item name="qmui_topbar_bg_color">?attr/app_primary_color</item>
+        <item name="qmui_topbar_title_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_subtitle_color">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_text_btn_color_state_list">@color/qmui_config_color_white</item>
+        <item name="qmui_topbar_height">64dp</item>
+        <item name="qmui_topbar_image_btn_height">48dp</item>
+    </style>
+
+
+</resources>
